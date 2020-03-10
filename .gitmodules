@@ -1,0 +1,24 @@
+[submodule "Library-Apache-Spark"]
+	path = Library-Apache-Spark
+	url = git@github.com:bayudwiyansatria/Library-Apache-Spark.git
+	master = master
+[submodule "Library-Apache-Hadoop"]
+	path = Library-Apache-Hadoop
+	url = git@github.com:bayudwiyansatria/Library-Apache-Hadoop.git
+	master = master
+[submodule "Library-Machine-Learning"]
+	path = Library-Machine-Learning
+	url = git@github.com:bayudwiyansatria/Library-Machine-Learning.git
+	master = master
+[submodule "Library-Java-Core"]
+	path = Library-Java-Core
+	url = git@github.com:bayudwiyansatria/Library-Java-Core.git
+	master = master
+[submodule "Library-Java-Benchmark"]
+	path = Library-Java-Benchmark
+	url = git@github.com:bayudwiyansatria/Library-Java-Benchmark.git
+	master = master
+[submodule "Library-Java-EE-Core"]
+	path = Library-Java-EE-Core
+	url = git@github.com:bayudwiyansatria/Library-Java-EE-Core.git
+	master = master
