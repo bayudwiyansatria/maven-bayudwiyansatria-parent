@@ -458,9 +458,6 @@
 			<id>apache-release</id>
 			<build>
 				<plugins>
-					<!-- Create a source-release artifact that contains the fully buildable
-							 project directory source structure. This is the artifact which is
-							 the official subject of any release vote. -->
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-assembly-plugin</artifactId>
@@ -538,7 +535,7 @@
 					<plugin>
 						<groupId>net.nicoulaj.maven.plugins</groupId>
 						<artifactId>checksum-maven-plugin</artifactId>
-						<version>1.7</version>
+						<version>1.9</version>
 						<executions>
 							<execution>
 								<id>source-release-checksum</id>
@@ -561,12 +558,11 @@
 									</includes>
 								</fileSet>
 							</fileSets>
-							<failIfNoFiles>false</failIfNoFiles><!-- usually, no file to do checksum: don't consider error -->
+							<failIfNoFiles>false</failIfNoFiles>
 						</configuration>
 					</plugin>
 				</plugins>
 			</build>
 		</profile>
-		<!-- END SNIPPET: release-profile -->
 	</profiles>
 </project>
